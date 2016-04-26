@@ -1,0 +1,65 @@
+a.info {
+	position: relative;
+	color: blue;
+	text-decoration: none;
+}
+a.info span {
+	display: none;
+}
+a.info:hover {
+	background: none;
+	z-index: 500;
+}
+a.info:hover span {
+	display: inline;
+	position: absolute;
+	
+	top: 30px;
+	left: 20px;
+
+	background: #B9A78F;
+	color:black;
+	
+	padding: 3px;
+	border: 2px solid #B9A78F;
+}
+
+a.info img{
+	vertical-align: middle;
+}
+
+a.info:hover span div {
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+a.info:hover span div.title {
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+
+a.info:hover span div.weight {
+	text-align: right;
+	margin-right: 12px;
+}
+
+a.info:hover span div.main_attribute {
+	font-size: 20px;
+	color: white;
+}
+
+/* Tableau */
+table {
+	border-collapse: collapse;
+}
+
+th, td, tr {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+td {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
